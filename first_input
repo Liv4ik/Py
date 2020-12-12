@@ -1,2 +1,16 @@
 # User data 
 
+user_name = input("To provide you the necessary information, please, type the user's name!")
+user_email = input("The email too!")
+user_online = True
+user_seen = 52
+user_rank = 2.4
+
+user_rank = user_rank + 3 
+
+print("Here you are!")
+print("name:", user_name)
+print("email:", user_email)
+print("online:", user_online)
+print("last seen:", user_seen, "minutes ago")
+print("rank:", user_rank, "stars")
